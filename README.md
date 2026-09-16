@@ -1,5 +1,19 @@
 # @geastack-community/context
 
+> ⚠️ **This package is deprecated and archived.**
+>
+> An earlier revision of this package's README proposed keeping `context` as
+> an advanced option for rare cases (deep trees, multiple independent
+> instances of the same component, plugin-like architectures). After further
+> review, that position was reversed: Gea's official philosophy explicitly
+> excludes context providers as a supported pattern
+> (see the "Philosophy" page in Gea's official docs), and no exception is
+> made for advanced cases. Use singleton Stores that import each other
+> directly, or pass components/objects as props, instead.
+>
+> This repository is kept for historical/reference purposes only and
+> receives no further updates.
+
 The lightweight, **Zero-Hooks** dependency injection and context propagation library for **Gea (`@geajs/core`)**.
 
 Designed from the ground up to respect Gea's core philosophy: **No Hooks, pure Object-Oriented Programming (OOP), and explicit resource management.**
